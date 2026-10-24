@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "episode_index": 6,
+  "instruction": "take the spoon from the left bottom burner and put it in the cooking pot",
+  "raw_action": [
+    3.9464803647248914e-10,
+    -2.1905957603429727e-10,
+    -1.2338015331625485e-10,
+    -3.797660781401646e-07,
+    -6.870978381812165e-07,
+    -1.3008596511099313e-07,
+    1.0
+  ],
+  "trajectory_steps": 58,
+  "image_shape": [
+    256,
+    256,
+    3
+  ]
+}

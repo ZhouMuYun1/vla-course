@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# virtualenvs
+.venv/
+venv/
+
+# large artifacts NOT in repo
+models/
+data/
+wandb/
+*.partial
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local checkpoints (keep train_config.json only)
+checkpoints/*/best_adapter/
+checkpoints/*/*.safetensors
+checkpoints/*/*.bin
+
+# NOTE: results/b_formal/ and logs/ ARE committed — they are the graded evidence.

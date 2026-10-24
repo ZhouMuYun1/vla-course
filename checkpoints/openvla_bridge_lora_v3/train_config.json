@@ -1,0 +1,58 @@
+{
+  "base_model": "/home/lizhenkai/vlalora/models/openvla-7b",
+  "train_trajectories": 548,
+  "train_samples": 12802,
+  "val_trajectories": 128,
+  "val_samples": 535,
+  "max_steps": 1200,
+  "grad_accumulation_steps": 8,
+  "effective_batch_size": 8,
+  "learning_rate": 0.0001,
+  "warmup_steps": 50,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "precision": "base weights and forward bfloat16; trainable LoRA weights float32",
+  "task_keywords": [
+    "spoon",
+    "towel",
+    "eggplant",
+    "basket"
+  ],
+  "min_xyz": 0.005,
+  "min_rotation": 0.02,
+  "train_filter": {
+    "episodes_in_split_list": 548,
+    "keyword_episodes": 88,
+    "skipped_other_instructions": 460,
+    "skipped_still_steps": 449,
+    "kept_steps": 2580,
+    "extra": {
+      "episodes_in_split_list": 330,
+      "keyword_episodes": 330,
+      "skipped_other_instructions": 0,
+      "skipped_still_steps": 1645,
+      "kept_steps": 10222
+    }
+  },
+  "val_filter": {
+    "episodes_in_split_list": 128,
+    "keyword_episodes": 20,
+    "skipped_other_instructions": 108,
+    "skipped_still_steps": 85,
+    "kept_steps": 535
+  },
+  "early_stop_patience": 4,
+  "early_stop_delta": 0.02,
+  "normalization": "base checkpoint bridge_orig q01/q99, gripper unmasked",
+  "final_rule": "lowest validation action-token loss, early stop when val loss stops improving; SimplerEnv is not used",
+  "parameters": {
+    "total": 7545431488,
+    "trainable": 4194304,
+    "trainable_ratio": 0.0005558733130995199
+  },
+  "seed": 42
+}

@@ -1,0 +1,42 @@
+# OpenVLA-7B LoRA fine-tuning + SimplerEnv WidowX closed-loop eval
+# Python 3.10, CUDA 12.x
+
+# --- PyTorch / OpenVLA ---
+torch>=2.1.0
+torchvision>=0.16.0
+transformers==4.40.2
+peft>=0.10.0
+accelerate>=0.28.0
+huggingface-hub>=0.23.0
+sentencepiece
+tokenizers==0.19.1
+Pillow>=10.0.0
+
+# --- data pipeline (BridgeData V2 RLDS) ---
+tensorflow==2.15.0
+tensorflow-datasets==4.9.4
+tensorflow-metadata==1.15.0
+protobuf==3.20.3
+rlds==0.1.8
+
+# --- simulation env (installed editable from SimplerEnv repo) ---
+# pip install -e SimplerEnv/ManiSkill2_real2sim && pip install -e SimplerEnv
+gymnasium==0.29.1
+mujoco==2.3.7
+dm_control==1.0.14
+transforms3d
+imageio==2.34.0
+imageio-ffmpeg==0.5.1
+mediapy==1.2.0
+
+# --- numerics ---
+numpy==1.26.4
+scipy==1.12.0
+opencv-python==4.10.0.84
+einops
+requests
+tqdm
+
+# --- training ---
+wandb==0.16.6
+tensorboard

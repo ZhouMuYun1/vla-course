@@ -1,0 +1,20 @@
+Training log for OpenVLA-7B LoRA (v3)
+======================================
+Base: openvla/openvla-7b
+LoRA: q_proj, v_proj, rank=8, alpha=16
+Trainable params: 4.19M / 7.55B (0.056%)
+Optimizer: AdamW, lr=1e-4, warmup=50, grad_accum=8
+Data: 548 train trajectories (12802 steps), 128 val trajectories (535 steps)
+Early stop: patience=4 on val action-token loss
+
+Final checkpoint: step 300 (lowest val loss, early stop triggered)
+
+Per-step raw log: logs/openvla_bridge_lora_v3.jsonl
+Train config: checkpoints/openvla_bridge_lora_v3/train_config.json
+
+Key checkpoints (from jsonl):
+  step   1  train_loss=12.93
+  step  50  warmup peak lr=1e-4
+  step 100  train_loss ~= ~8.x
+  step 300  train_loss=~5.x  <-- selected as Final
+  step ~400 early stop triggered (val loss no longer improving)

@@ -1,0 +1,33 @@
+{
+  "protocol": "B-class formal states. Chosen as the next contiguous unused block after the development seeds 1100-1109 and 2200-2209. Those development seeds were already used while iterating OpenVLA LoRA recipes v1-v3, so they are not the reported comparison. This list was fixed before the formal Base/Final run and is not filtered by success.",
+  "image_resize": "lanczos3 256x256 before OpenVLA, matching Bridge training images and SimplerEnv OctoInference",
+  "control_freq_hz": 5,
+  "max_episode_steps": 60,
+  "model_seed": "greedy",
+  "tasks": {
+    "widowx_spoon_on_towel": [
+      {"episode": 0, "env_seed": 1110},
+      {"episode": 1, "env_seed": 1111},
+      {"episode": 2, "env_seed": 1112},
+      {"episode": 3, "env_seed": 1113},
+      {"episode": 4, "env_seed": 1114},
+      {"episode": 5, "env_seed": 1115},
+      {"episode": 6, "env_seed": 1116},
+      {"episode": 7, "env_seed": 1117},
+      {"episode": 8, "env_seed": 1118},
+      {"episode": 9, "env_seed": 1119}
+    ],
+    "widowx_put_eggplant_in_basket": [
+      {"episode": 0, "env_seed": 2210},
+      {"episode": 1, "env_seed": 2211},
+      {"episode": 2, "env_seed": 2212},
+      {"episode": 3, "env_seed": 2213},
+      {"episode": 4, "env_seed": 2214},
+      {"episode": 5, "env_seed": 2215},
+      {"episode": 6, "env_seed": 2216},
+      {"episode": 7, "env_seed": 2217},
+      {"episode": 8, "env_seed": 2218},
+      {"episode": 9, "env_seed": 2219}
+    ]
+  }
+}

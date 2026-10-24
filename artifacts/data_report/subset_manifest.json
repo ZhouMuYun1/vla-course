@@ -1,0 +1,516 @@
+{
+  "source": "https://rail.eecs.berkeley.edu/datasets/bridge_release/data/tfds/bridge_dataset/1.0.0/",
+  "selection_seed": 42,
+  "byte_budget": 9000000000,
+  "selected_bytes": 8328422383,
+  "splits": {
+    "train": [
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00051-of-01024",
+        "remote_index": 51,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00000-of-00060",
+        "bytes": 117250808
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00054-of-01024",
+        "remote_index": 54,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00001-of-00060",
+        "bytes": 118728966
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00061-of-01024",
+        "remote_index": 61,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00002-of-00060",
+        "bytes": 98593601
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00065-of-01024",
+        "remote_index": 65,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00003-of-00060",
+        "bytes": 118266324
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00178-of-01024",
+        "remote_index": 178,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00004-of-00060",
+        "bytes": 118513919
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00191-of-01024",
+        "remote_index": 191,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00005-of-00060",
+        "bytes": 115153995
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00209-of-01024",
+        "remote_index": 209,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00006-of-00060",
+        "bytes": 122851294
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00228-of-01024",
+        "remote_index": 228,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00007-of-00060",
+        "bytes": 107474876
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00285-of-01024",
+        "remote_index": 285,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00008-of-00060",
+        "bytes": 119747549
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00407-of-01024",
+        "remote_index": 407,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00009-of-00060",
+        "bytes": 115189449
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00447-of-01024",
+        "remote_index": 447,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00010-of-00060",
+        "bytes": 124207098
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00451-of-01024",
+        "remote_index": 451,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00011-of-00060",
+        "bytes": 113441691
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00457-of-01024",
+        "remote_index": 457,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00012-of-00060",
+        "bytes": 94163768
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00476-of-01024",
+        "remote_index": 476,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00013-of-00060",
+        "bytes": 107084520
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00501-of-01024",
+        "remote_index": 501,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00014-of-00060",
+        "bytes": 124485799
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00563-of-01024",
+        "remote_index": 563,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00015-of-00060",
+        "bytes": 112915921
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00569-of-01024",
+        "remote_index": 569,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00016-of-00060",
+        "bytes": 120615639
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00859-of-01024",
+        "remote_index": 859,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00017-of-00060",
+        "bytes": 108926553
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00864-of-01024",
+        "remote_index": 864,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00018-of-00060",
+        "bytes": 112573976
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00919-of-01024",
+        "remote_index": 919,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00019-of-00060",
+        "bytes": 93324589
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00012-of-01024",
+        "remote_index": 12,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00020-of-00060",
+        "bytes": 112172001
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00031-of-01024",
+        "remote_index": 31,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00021-of-00060",
+        "bytes": 120699099
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00053-of-01024",
+        "remote_index": 53,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00022-of-00060",
+        "bytes": 113212561
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00182-of-01024",
+        "remote_index": 182,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00023-of-00060",
+        "bytes": 100451152
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00194-of-01024",
+        "remote_index": 194,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00024-of-00060",
+        "bytes": 113732180
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00204-of-01024",
+        "remote_index": 204,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00025-of-00060",
+        "bytes": 96431940
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00214-of-01024",
+        "remote_index": 214,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00026-of-00060",
+        "bytes": 127397635
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00236-of-01024",
+        "remote_index": 236,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00027-of-00060",
+        "bytes": 125413079
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00246-of-01024",
+        "remote_index": 246,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00028-of-00060",
+        "bytes": 114632455
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00255-of-01024",
+        "remote_index": 255,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00029-of-00060",
+        "bytes": 114671794
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00257-of-01024",
+        "remote_index": 257,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00030-of-00060",
+        "bytes": 118363017
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00292-of-01024",
+        "remote_index": 292,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00031-of-00060",
+        "bytes": 111485998
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00302-of-01024",
+        "remote_index": 302,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00032-of-00060",
+        "bytes": 107732061
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00305-of-01024",
+        "remote_index": 305,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00033-of-00060",
+        "bytes": 110615608
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00346-of-01024",
+        "remote_index": 346,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00034-of-00060",
+        "bytes": 116551364
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00393-of-01024",
+        "remote_index": 393,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00035-of-00060",
+        "bytes": 116702611
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00409-of-01024",
+        "remote_index": 409,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00036-of-00060",
+        "bytes": 109225853
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00485-of-01024",
+        "remote_index": 485,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00037-of-00060",
+        "bytes": 109186714
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00514-of-01024",
+        "remote_index": 514,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00038-of-00060",
+        "bytes": 127719335
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00594-of-01024",
+        "remote_index": 594,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00039-of-00060",
+        "bytes": 117653310
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00606-of-01024",
+        "remote_index": 606,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00040-of-00060",
+        "bytes": 112737774
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00629-of-01024",
+        "remote_index": 629,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00041-of-00060",
+        "bytes": 111092838
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00650-of-01024",
+        "remote_index": 650,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00042-of-00060",
+        "bytes": 127682217
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00684-of-01024",
+        "remote_index": 684,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00043-of-00060",
+        "bytes": 111240837
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00694-of-01024",
+        "remote_index": 694,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00044-of-00060",
+        "bytes": 126462530
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00704-of-01024",
+        "remote_index": 704,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00045-of-00060",
+        "bytes": 117174924
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00705-of-01024",
+        "remote_index": 705,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00046-of-00060",
+        "bytes": 123872451
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00726-of-01024",
+        "remote_index": 726,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00047-of-00060",
+        "bytes": 115531209
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00760-of-01024",
+        "remote_index": 760,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00048-of-00060",
+        "bytes": 111046069
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00774-of-01024",
+        "remote_index": 774,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00049-of-00060",
+        "bytes": 121587276
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00788-of-01024",
+        "remote_index": 788,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00050-of-00060",
+        "bytes": 104346168
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00815-of-01024",
+        "remote_index": 815,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00051-of-00060",
+        "bytes": 118675263
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00820-of-01024",
+        "remote_index": 820,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00052-of-00060",
+        "bytes": 114494775
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00906-of-01024",
+        "remote_index": 906,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00053-of-00060",
+        "bytes": 103399507
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00935-of-01024",
+        "remote_index": 935,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00054-of-00060",
+        "bytes": 108706626
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00936-of-01024",
+        "remote_index": 936,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00055-of-00060",
+        "bytes": 124005688
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00939-of-01024",
+        "remote_index": 939,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00056-of-00060",
+        "bytes": 100030131
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-00954-of-01024",
+        "remote_index": 954,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00057-of-00060",
+        "bytes": 143974126
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-01002-of-01024",
+        "remote_index": 1002,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00058-of-00060",
+        "bytes": 112051712
+      },
+      {
+        "remote_name": "bridge_dataset-train.tfrecord-01014-of-01024",
+        "remote_index": 1014,
+        "remote_total": 1024,
+        "local_name": "bridge_dataset-train.tfrecord-00059-of-00060",
+        "bytes": 99752042
+      }
+    ],
+    "val": [
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00001-of-00128",
+        "remote_index": 1,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00000-of-00012",
+        "bytes": 127195722
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00040-of-00128",
+        "remote_index": 40,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00001-of-00012",
+        "bytes": 131798925
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00087-of-00128",
+        "remote_index": 87,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00002-of-00012",
+        "bytes": 110345616
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00108-of-00128",
+        "remote_index": 108,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00003-of-00012",
+        "bytes": 107117274
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00002-of-00128",
+        "remote_index": 2,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00004-of-00012",
+        "bytes": 109607615
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00024-of-00128",
+        "remote_index": 24,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00005-of-00012",
+        "bytes": 105566347
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00054-of-00128",
+        "remote_index": 54,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00006-of-00012",
+        "bytes": 139837487
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00059-of-00128",
+        "remote_index": 59,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00007-of-00012",
+        "bytes": 118237845
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00067-of-00128",
+        "remote_index": 67,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00008-of-00012",
+        "bytes": 128561058
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00073-of-00128",
+        "remote_index": 73,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00009-of-00012",
+        "bytes": 132827460
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00094-of-00128",
+        "remote_index": 94,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00010-of-00012",
+        "bytes": 130316031
+      },
+      {
+        "remote_name": "bridge_dataset-val.tfrecord-00116-of-00128",
+        "remote_index": 116,
+        "remote_total": 128,
+        "local_name": "bridge_dataset-val.tfrecord-00011-of-00012",
+        "bytes": 131586738
+      }
+    ]
+  }
+}

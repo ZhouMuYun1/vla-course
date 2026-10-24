@@ -1,0 +1,41 @@
+{
+  "models": [
+    {
+      "model": "base",
+      "tasks": {
+        "widowx_spoon_on_towel": {
+          "successes": 1,
+          "episodes": 10,
+          "rate": 10.0
+        },
+        "widowx_put_eggplant_in_basket": {
+          "successes": 1,
+          "episodes": 10,
+          "rate": 10.0
+        }
+      },
+      "b_simpler_score": 10.0
+    },
+    {
+      "model": "final",
+      "tasks": {
+        "widowx_spoon_on_towel": {
+          "successes": 0,
+          "episodes": 10,
+          "rate": 0.0
+        },
+        "widowx_put_eggplant_in_basket": {
+          "successes": 5,
+          "episodes": 10,
+          "rate": 50.0
+        }
+      },
+      "b_simpler_score": 25.0
+    }
+  ],
+  "delta_percentage_points": {
+    "widowx_spoon_on_towel": -10.0,
+    "widowx_put_eggplant_in_basket": 40.0
+  },
+  "b_simpler_score_delta": 15.0
+}

@@ -1,0 +1,29 @@
+{
+  "protocol": "Task B formal evaluation states fixed before Base/Final comparison",
+  "tasks": {
+    "widowx_spoon_on_towel": [
+      {"episode": 0, "env_seed": 1100, "options": {}},
+      {"episode": 1, "env_seed": 1101, "options": {}},
+      {"episode": 2, "env_seed": 1102, "options": {}},
+      {"episode": 3, "env_seed": 1103, "options": {}},
+      {"episode": 4, "env_seed": 1104, "options": {}},
+      {"episode": 5, "env_seed": 1105, "options": {}},
+      {"episode": 6, "env_seed": 1106, "options": {}},
+      {"episode": 7, "env_seed": 1107, "options": {}},
+      {"episode": 8, "env_seed": 1108, "options": {}},
+      {"episode": 9, "env_seed": 1109, "options": {}}
+    ],
+    "widowx_put_eggplant_in_basket": [
+      {"episode": 0, "env_seed": 2200, "options": {}},
+      {"episode": 1, "env_seed": 2201, "options": {}},
+      {"episode": 2, "env_seed": 2202, "options": {}},
+      {"episode": 3, "env_seed": 2203, "options": {}},
+      {"episode": 4, "env_seed": 2204, "options": {}},
+      {"episode": 5, "env_seed": 2205, "options": {}},
+      {"episode": 6, "env_seed": 2206, "options": {}},
+      {"episode": 7, "env_seed": 2207, "options": {}},
+      {"episode": 8, "env_seed": 2208, "options": {}},
+      {"episode": 9, "env_seed": 2209, "options": {}}
+    ]
+  }
+}

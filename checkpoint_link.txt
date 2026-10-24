@@ -1,0 +1,28 @@
+Base checkpoint
+===============
+https://huggingface.co/openvla/openvla-7b
+
+Download with:
+  huggingface-cli download openvla/openvla-7b --local-dir models/openvla-7b
+
+
+Final checkpoint (LoRA adapter, ~17 MB)
+=======================================
+Selected at optimizer step 300 by validation action-token loss.
+Local path used during training: checkpoints/openvla_bridge_lora_v3/best_adapter
+
+Public download link:
+  [ TODO: upload to Google Drive / 百度网盘 / HuggingFace model hub and paste URL here ]
+
+Load it on top of the base with:
+  from peft import PeftModel
+  from transformers import AutoModelForVision2Seq
+  base = AutoModelForVision2Seq.from_pretrained("models/openvla-7b", torch_dtype=torch.bfloat16)
+  model = PeftModel.from_pretrained(base, "checkpoints/openvla_bridge_lora_v3/best_adapter")
+
+Or merge and save:
+  merged = model.merge_and_unload()
+  merged.save_pretrained("models/openvla-7b-bridge-lora-v3")
+
+Inference uses unnorm_key=bridge_orig and do_sample=False.
+See scripts/serve_openvla.py for the exact serving setup.

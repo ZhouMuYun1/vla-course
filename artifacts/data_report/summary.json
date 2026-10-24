@@ -1,0 +1,12 @@
+{
+  "total_trajectories": 3756,
+  "total_steps": 141289,
+  "counts": {
+    "train/in_container": 299,
+    "train/on_surface": 249,
+    "train/other": 2566,
+    "val/in_container": 74,
+    "val/on_surface": 54,
+    "val/other": 514
+  }
+}

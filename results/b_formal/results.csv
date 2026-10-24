@@ -1,0 +1,3 @@
+model,module,t1_successes,t1_episodes,t2_successes,t2_episodes,b_simpler_score
+base,none,1,10,1,10,10.0
+final,lora_q_proj_v_proj,0,10,5,10,25.0
